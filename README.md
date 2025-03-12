@@ -1,7 +1,23 @@
-# REALITYCHECK
+<p>
+  <img src="logo.jpg" alt="REALITYCHECK" width="200" style="vertical-align:middle; margin-right:8px;" />
+</p>
 
 This repository contains artifacts for the paper:
 "Principled and Automated Approach for Investigating AR/VR Attacks"
+
+The paper was accepted to USENIX Security 25.
+
+If you use REALITYCHECK in a scientific publication, we would appreciate using the following citation:
+
+```
+@inproceedings{realitycheck,
+  title = {Principled and Automated Approach for Investigating AR/VR Attacks},
+  author = {Shoaib, Muhammad and Suh, Alex and Hassan, Wajih Ul},
+  year = {2025},
+  booktitle = {USENIX Security Symposium},
+}
+```
+
 
 ## Note
 
