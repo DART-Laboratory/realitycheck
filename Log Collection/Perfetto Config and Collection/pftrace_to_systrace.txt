@@ -1,0 +1,15 @@
+You can convert a trace.pftrace file collected by Perfetto to a .systrace file by using Perfetto's command-line tools. The primary command-line tool is traceconv, which can be used to convert between trace formats.
+
+Here's how to convert a .pftrace file to a .systrace file using traceconv:
+
+First, make sure you have the Perfetto command-line tools installed. You can build the tools from source by following the instructions in the Perfetto repository: https://github.com/google/perfetto/blob/master/docs/build-instructions.md
+
+Once you have the tools installed, navigate to the directory containing the traceconv binary. It's usually located in the out/<build-target>/ directory after building the Perfetto source.
+
+Run the traceconv tool, specifying the input file and output file formats as well as the input and output file paths:
+
+./traceconv --ifmt pftrace --ofmt systrace --input /path/to/your/input.pftrace --output /path/to/your/output.systrace
+
+Replace /path/to/your/input.pftrace with the path to your .pftrace file and /path/to/your/output.systrace with the path where you want the converted .systrace file to be saved.
+
+After running the command, you should have a converted .systrace file in the specified output path.

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-07-23">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="tid" type="string" />
+      <attribute id="1" title="source" type="string" />
+      <attribute id="2" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="18:06:08.559 adb.exe" label="18:06:08.559 adb.exe" />
+      <node id="18:06:12.132 adb.exe" label="18:06:12.132 adb.exe" />
+      <node id="18:06:08.492 SideQuest.exe" label="18:06:08.492 SideQuest.exe" />
+      <node id="52.89.187.149" label="52.89.187.149" />
+      <node id="18:06:08.512 cmd.exe" label="18:06:08.512 cmd.exe" />
+      <node id="18:06:08.519 cmd.exe" label="18:06:08.519 cmd.exe" />
+      <node id="18:06:08.562 conhost.exe" label="18:06:08.562 conhost.exe" />
+      <node id="18:06:09.378 [CT]    " label="18:06:09.378 [CT]    " pid="858">
+        <attvalues>
+          <attvalue for="0" value="1237" />
+          <attvalue for="1" value="logcat" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.241 AuthLogger" label="18:06:08.241 AuthLogger" pid="2141">
+        <attvalues>
+          <attvalue for="0" value="4096" />
+          <attvalue for="1" value="logcat" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.190 PackageVerificationReceiver" label="18:06:08.190 PackageVerificationReceiver" pid="3110">
+        <attvalues>
+          <attvalue for="0" value="3110" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="2" value="process" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.198 AppSafetyService" label="18:06:08.198 AppSafetyService" pid="3110">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="3110" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.252 PackageVerifier" label="18:06:08.252 PackageVerifier" pid="3110">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="16217" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.320 PackageIntegritySyncJobService" label="18:06:08.320 PackageIntegritySyncJobService" pid="3110">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="16217" />
+        </attvalues>
+      </node>
+      <node id="18:07:09.113 ContextImpl" label="18:07:09.113 ContextImpl" pid="1034">
+        <attvalues>
+          <attvalue for="0" value="3241" />
+          <attvalue for="1" value="logcat" />
+        </attvalues>
+      </node>
+      <node id="18:06:06.632 DeviceHelper" label="18:06:06.632 DeviceHelper" pid="2320">
+        <attvalues>
+          <attvalue for="0" value="2320" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="2" value="process" />
+        </attvalues>
+      </node>
+      <node id="18:06:07.632 I [OAO] VrNotificationListenerService" label="18:06:07.632 I [OAO] VrNotificationListenerService" pid="2320">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="2320" />
+        </attvalues>
+      </node>
+      <node id="18:07:12.343 OVRPlatform" label="18:07:12.343 OVRPlatform" pid="1895">
+        <attvalues>
+          <attvalue for="0" value="2440" />
+          <attvalue for="1" value="logcat" />
+        </attvalues>
+      </node>
+      <node id="18:06:09.010 VrApi   " label="18:06:09.010 VrApi   " pid="2025">
+        <attvalues>
+          <attvalue for="0" value="15791" />
+          <attvalue for="1" value="logcat" />
+        </attvalues>
+      </node>
+      <node id="18:07:49.110 OVRPlatform" label="18:07:49.110 OVRPlatform" pid="8007">
+        <attvalues>
+          <attvalue for="0" value="9241" />
+          <attvalue for="1" value="logcat" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.466 PackageManager" label="18:06:08.466 PackageManager" pid="1053">
+        <attvalues>
+          <attvalue for="0" value="1105" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="2" value="process" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.648 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk pkg=com 1czx2hvexvpkgwxaluk-6q isa=arm64 dexoptflags=boot_complete,profile_guided,public,enable_hidden_api_checks targetfilter=speed-profile oatdir=/data/app/com 1czx2hvexvpkgwxaluk-6q==/oat classloadercontext=pcl[]{pcl[/system/framework/org apache http legacy jar]}" label="18:06:08.648 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk pkg=com 1czx2hvexvpkgwxaluk-6q isa=arm64 dexoptflags=boot_complete,profile_guided,public,enable_hidden_api_checks targetfilter=speed-profile oatdir=/data/app/com 1czx2hvexvpkgwxaluk-6q==/oat classloadercontext=pcl[]{pcl[/system/framework/org apache http legacy jar]}">
+        <attvalues>
+          <attvalue for="2" value="entity" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.648 PackageManager" label="18:06:08.648 PackageManager" pid="1053">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="1105" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.649 ActivityManager" label="18:06:08.649 ActivityManager" pid="1053">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="1091" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.651 /data/app/com 1czx2hvexvpkgwxaluk-6q/abc apk" label="18:06:08.651 /data/app/com 1czx2hvexvpkgwxaluk-6q/abc apk">
+        <attvalues>
+          <attvalue for="2" value="entity" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.651 installd" label="18:06:08.651 installd" pid="814">
+        <attvalues>
+          <attvalue for="0" value="814" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="2" value="process" />
+        </attvalues>
+      </node>
+      <node id="18:06:09.535 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk" label="18:06:09.535 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk">
+        <attvalues>
+          <attvalue for="2" value="entity" />
+        </attvalues>
+      </node>
+      <node id="18:06:09.535 installd" label="18:06:09.535 installd" pid="814">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="814" />
+        </attvalues>
+      </node>
+      <node id="18:07:06.943 IPCSharedMemory" label="18:07:06.943 IPCSharedMemory" pid="1750">
+        <attvalues>
+          <attvalue for="0" value="3139" />
+          <attvalue for="1" value="logcat" />
+        </attvalues>
+      </node>
+      <node id="18:06:08.633 DeviceAuthenticator" label="18:06:08.633 DeviceAuthenticator" pid="13377">
+        <attvalues>
+          <attvalue for="0" value="13394" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="2" value="process" />
+        </attvalues>
+      </node>
+      <node id="18:06:12.135 ActivityTaskManager" label="18:06:12.135 ActivityTaskManager" pid="1049">
+        <attvalues>
+          <attvalue for="0" value="1675" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="2" value="process" />
+        </attvalues>
+      </node>
+      <node id="18:07:43.940 ActivityTaskManager" label="18:07:43.940 ActivityTaskManager" pid="1049">
+        <attvalues>
+          <attvalue for="2" value="process" />
+          <attvalue for="1" value="logcat" />
+          <attvalue for="0" value="1689" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="18:06:08.559 adb.exe" target="18:06:08.648 PackageManager" id="0" />
+      <edge source="18:06:08.559 adb.exe" target="18:06:08.651 installd" id="1" />
+      <edge source="18:06:12.132 adb.exe" target="18:06:12.135 ActivityTaskManager" id="2" />
+      <edge source="18:06:08.492 SideQuest.exe" target="52.89.187.149" id="3" />
+      <edge source="18:06:08.492 SideQuest.exe" target="18:06:08.512 cmd.exe" id="4" />
+      <edge source="18:06:08.512 cmd.exe" target="18:06:08.559 adb.exe" id="5" />
+      <edge source="18:06:08.512 cmd.exe" target="18:06:12.132 adb.exe" id="6" />
+      <edge source="18:06:08.519 cmd.exe" target="18:06:08.562 conhost.exe" id="7" />
+      <edge source="18:06:08.190 PackageVerificationReceiver" target="18:06:08.241 AuthLogger" id="8" />
+      <edge source="18:06:08.190 PackageVerificationReceiver" target="18:06:08.198 AppSafetyService" id="9" />
+      <edge source="18:06:08.198 AppSafetyService" target="18:06:08.252 PackageVerifier" id="10" />
+      <edge source="18:06:08.252 PackageVerifier" target="18:06:08.320 PackageIntegritySyncJobService" id="11" />
+      <edge source="18:06:08.252 PackageVerifier" target="18:06:08.466 PackageManager" id="12" />
+      <edge source="18:07:09.113 ContextImpl" target="18:07:12.343 OVRPlatform" id="13" />
+      <edge source="18:06:06.632 DeviceHelper" target="18:06:07.632 I [OAO] VrNotificationListenerService" id="14" />
+      <edge source="18:06:08.466 PackageManager" target="18:06:08.648 PackageManager" id="15" />
+      <edge source="18:06:08.466 PackageManager" target="18:06:08.633 DeviceAuthenticator" id="16" />
+      <edge source="18:06:08.648 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk pkg=com 1czx2hvexvpkgwxaluk-6q isa=arm64 dexoptflags=boot_complete,profile_guided,public,enable_hidden_api_checks targetfilter=speed-profile oatdir=/data/app/com 1czx2hvexvpkgwxaluk-6q==/oat classloadercontext=pcl[]{pcl[/system/framework/org apache http legacy jar]}" target="18:06:08.648 PackageManager" id="17" />
+      <edge source="18:06:08.648 PackageManager" target="18:06:08.648 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk pkg=com 1czx2hvexvpkgwxaluk-6q isa=arm64 dexoptflags=boot_complete,profile_guided,public,enable_hidden_api_checks targetfilter=speed-profile oatdir=/data/app/com 1czx2hvexvpkgwxaluk-6q==/oat classloadercontext=pcl[]{pcl[/system/framework/org apache http legacy jar]}" id="18" />
+      <edge source="18:06:08.648 PackageManager" target="18:06:08.649 ActivityManager" id="19" />
+      <edge source="18:06:08.649 ActivityManager" target="18:06:08.651 installd" id="20" />
+      <edge source="18:06:08.651 /data/app/com 1czx2hvexvpkgwxaluk-6q/abc apk" target="18:06:08.651 installd" id="21" />
+      <edge source="18:06:08.651 installd" target="18:06:08.651 /data/app/com 1czx2hvexvpkgwxaluk-6q/abc apk" id="22" />
+      <edge source="18:06:08.651 installd" target="18:06:08.466 PackageManager" id="23" />
+      <edge source="18:06:08.651 installd" target="18:06:09.535 installd" id="24" />
+      <edge source="18:06:09.535 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk" target="18:06:09.535 installd" id="25" />
+      <edge source="18:06:09.535 installd" target="18:06:09.535 /data/app/com 1czx2hvexvpkgwxaluk-6q==/abc apk" id="26" />
+      <edge source="18:06:08.633 DeviceAuthenticator" target="18:06:08.633 DeviceAuthenticator" id="27" />
+      <edge source="18:06:12.135 ActivityTaskManager" target="18:07:09.113 ContextImpl" id="28" />
+      <edge source="18:06:12.135 ActivityTaskManager" target="18:07:43.940 ActivityTaskManager" id="29" />
+      <edge source="18:07:43.940 ActivityTaskManager" target="18:07:49.110 OVRPlatform" id="30" />
+    </edges>
+  </graph>
+</gexf>

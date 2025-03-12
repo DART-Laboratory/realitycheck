@@ -1,0 +1,31 @@
+Instrument app using soot and install it on your HMD.
+
+Run the command from your terminal once:
+
+adb logcat -G 256M
+
+Then run the following, this will make sure to redirect OpenXR logs to logcat, and save the log file on your meta quest device:
+
+adb logcat -f /sdcard/log_output.txt > /dev/null 2>&1 &
+
+log_output.txt will contain: logical, app, opener and instrumented logs (if any)
+
+Run perfetto script from the perfecto script folder, it saves output to the HMD device too.
+
+To stop the logging:
+
+Run adb shell to get access to the device's shell
+
+ps -A | grep logd
+
+To stop the logcat process, use the kill command followed by the PID you noted in the previous step:
+
+kill <PID>
+
+This will stop logcat and perfetto logging on your HMD device.
+
+Retrieve the log file from the HMD device:
+
+adb pull /sdcard/log_output.txt 
+adb pull /data/misc/perfetto-traces/trace
+ 
